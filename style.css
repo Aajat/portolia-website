@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Noto+Serif+Display:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+}
+h1 {
+    /* background-color: black; */
+    /* color: white; */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Island Moments',cursive;
+}
+
+.main {
+    /* border: 2px solid rgb(9, 238, 85); */
+    display: flex;
+    /* height: 90vh; */
+    justify-content: space-around;
+    /* font-family: 'Island Moments',cursive; */
+    font-weight: 10px;
+
+
+}
+.box1:hover {
+    color: rgb(238, 3, 3);
+}
+.box2:hover {
+    color: rgb(230, 6, 6);
+}
+.box3:hover {
+    color: rgb(236, 8, 8);
+}
+
+
+.box1 {
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    margin: 102px 20px;
+    padding: 10px;
+
+    
+}
+
+.box2 {
+    /* background-color: green; */
+    /* border: 2px solid black; */
+    margin: 102px 20px;
+    padding: 10px;
+}
+
+.box3 {
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    margin: 102px 20px;
+    padding: 10px;
+}
+.first_box{
+    display: flex;
+    flex-direction: column;
+    /* background-color:gray; */
+}
+.second_box{
+    display: flex;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    
+}
