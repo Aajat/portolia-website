@@ -1,23 +1,42 @@
-ul{
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 198, 198);
+
+}
+
+
+
+.title {
+    font-family: cursive;
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+    margin-top: 0px;
+    background-color: #c10c0c;
+    padding: 1px 15px;
+    float: left;
+    position: sticky;
+}
+
+
+ul {
+    background-color: rgb(110, 6, 6);
     list-style: none;
-    background-color: #14f70c;
-    /* padding: 0; */
+    margin: 0 0 0 110px;
+    padding: 0;
     overflow: hidden;
-    /* margin: 0; */
-
-
 }
-li{
-    float:left;
+
+li {
+    float: left;
 }
-li a{
+
+li a {
+    display: block;
     text-decoration: none;
     text-align: center;
-    padding: 10px 20px;
-}
-a:hover{
-    background-color: black;
+    padding: 15px 10px;
     color: white;
+    width: 150px;
 }
-body{
-    margin: 0;}
